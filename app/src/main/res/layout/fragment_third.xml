@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which method can be defined only once in a program?"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/gp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        >
+
+        <RadioButton
+            android:id="@+id/A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/question"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="50dp"
+            android:text="first"
+            android:textSize="30dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/A"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:text="first"
+            android:textSize="30dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/B"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:text="first"
+            android:textSize="30dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/C"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:text="first"
+            android:textSize="30dp"
+            />
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/thirdsub"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/gp1"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FF5722"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+
+
+        />
+
+</RelativeLayout>
